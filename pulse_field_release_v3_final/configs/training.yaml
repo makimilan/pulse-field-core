@@ -1,0 +1,18 @@
+training:
+  steps: 1000
+  batch_size: 32
+  learning_rate: 0.001
+  checkpoint_interval: 100
+  teacher_model: "rule_based"
+
+rl:
+  exploration_rate: 0.1
+  decay: 0.99
+  reward_weights:
+    energy: 0.2
+    defect: 0.5
+    success: 1.0
+
+distillation:
+  temperature: 1.0
+  alpha: 0.5

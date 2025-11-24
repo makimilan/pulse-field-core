@@ -1,0 +1,10 @@
+datasets:
+  tinystories:
+    path: "data/tinystories"
+    split: "train"
+  wikitext:
+    path: "data/wikitext-2"
+    split: "test"
+  synthetic:
+    enabled: true
+    size: 1000

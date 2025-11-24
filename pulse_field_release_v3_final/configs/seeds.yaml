@@ -1,0 +1,20 @@
+# Seed configuration for reproducibility
+
+seeds:
+  global: 42
+  
+  tests:
+    audit: 42
+    control_simple: 43
+    control_superposition: 44
+    control_evolutionary: 45
+    control_absorber: 46
+    stress_superposition: 47
+    stress_mutations: 48
+    stress_collisions: 49
+    stress_energy: 50
+  
+  experiments:
+    exp1: 100
+    exp2: 101
+    exp3: 102

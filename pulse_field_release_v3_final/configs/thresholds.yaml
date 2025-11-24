@@ -1,0 +1,32 @@
+# Threshold configuration
+
+thresholds:
+  # Compatibility
+  tau_compat: 0.7          # Min compat score to activate
+  
+  # Spectral
+  tau_lambda: 0.001        # Min eigenvalue threshold
+  tau_cos: 0.25            # Min cosine separation (for anti-collapse)
+  k_min: 2                 # Min independence components
+  
+  # Amplification
+  tau_amp: 1.0             # Max kernel norm
+  
+  # Energy
+  tau_energy: 0.05         # Min energy to continue
+  tau_l2: 1.0              # L2 normalization target
+  
+  # Capacity
+  n_max: 16                # Max concurrent active nodes
+  
+  # Evolution
+  invariants_pass_rate_commit: 0.95
+  invariants_pass_rate_cache: 0.99
+  
+  # Percentile clipping
+  percentile_low: 0.01
+  percentile_high: 0.99
+  
+  # EMA anti-drift
+  ema_alpha: 0.1
+  outlier_sigma: 3.0

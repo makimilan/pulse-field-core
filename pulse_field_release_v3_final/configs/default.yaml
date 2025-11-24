@@ -1,0 +1,44 @@
+# Default configuration for Pulse-Field
+
+seed:
+  global: 42
+
+thresholds:
+  tau_compat: 0.7
+  tau_lambda: 0.001
+  tau_cos: 0.25
+  tau_amp: 1.0
+  tau_energy: 0.05
+  tau_l2: 1.0
+  k_min: 2
+  n_max: 16
+
+energy:
+  e_max: 1.5
+  e_init_range: [0.8, 1.2]
+
+router:
+  l_max: 10
+  cache_ttl: 600
+
+archive:
+  k: 5
+  ttl: 600
+
+evolution:
+  invariants_pass_rate_commit: 0.95
+  invariants_pass_rate_cache: 0.99
+
+logging:
+  level: INFO
+  json_output: true
+  trace_all_steps: true
+
+graph:
+  max_nodes: 100
+  max_layers: 20
+
+test:
+  iterations: 100
+  seed: 42
+  timeout_seconds: 300
