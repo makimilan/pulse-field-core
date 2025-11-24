@@ -12,7 +12,7 @@ We invite the community to audit the code, run the benchmarks, and verify the ph
 
 ---
 
-## 🧪 Benchmark Results (v4.0 vs GPT-2 Small)
+##  Benchmark Results (v4.0 vs GPT-2 Small)
 
 *Tests conducted on CPU. Pulse-Field runs in pure Python (vs PyTorch C++ optimized Transformers).*
 
@@ -42,7 +42,7 @@ The "Crossover Point" where O(N) beats O(N^2) optimized kernels happens around 2
 
 ---
 
-## 🛠️ Architecture: How it works
+##  Architecture: How it works
 
 1.  **The Impulse:** A vector packet carrying a Hidden State ($H$) governed by SSM equations.
 2.  **The Field:** A sparse graph of Hybrid Crystals.
@@ -50,7 +50,7 @@ The "Crossover Point" where O(N) beats O(N^2) optimized kernels happens around 2
 
 ---
 
-## 💻 Usage (Run the Testbed)
+##  Usage (Run the Testbed)
 
 We encourage you to verify our claims.
 
